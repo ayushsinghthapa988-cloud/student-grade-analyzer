@@ -3,7 +3,7 @@ from queries import get_top_students, Class_average
 import pandas as pd
 
 # Read CSV
-df = pd.read_csv("../data/students.csv")
+df = pd.read_csv("data/students.csv")
 
 print("Original Data:\n")
 print(df)
